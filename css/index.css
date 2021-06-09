@@ -68,7 +68,7 @@ body {
   background: #49b1f5;
 }
 *::-webkit-scrollbar-track {
-  background-color: transparent;
+  background-color: rgba(65,245,255,0.122);
 }
 #web_bg {
   position: fixed;
@@ -2676,8 +2676,8 @@ blockquote footer cite:before {
 }
 #page-header #site_social_icons .social-icon {
   margin: 0 0.5rem;
-  color: #eee;
-  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
+  color: rgba(173,208,255,0.839);
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.8);
   font-size: 1rem;
   cursor: pointer;
 }
@@ -2807,9 +2807,9 @@ _:future,
   position: fixed;
   top: -60px;
   z-index: 91;
-  background: rgba(255,255,255,0.8);
-  -webkit-box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
-  box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
+  background: rgba(92,237,255,0.569);
+  -webkit-box-shadow: 0 5px 6px -5px #f5d098;
+  box-shadow: 0 5px 6px -5px #f5d098;
   -webkit-transition: -webkit-transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
   -moz-transition: -moz-transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
   -o-transition: -o-transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
@@ -2819,8 +2819,8 @@ _:future,
 #nav.fixed a,
 #nav.fixed #site-name,
 #nav.fixed .toggle-menu {
-  color: #212121;
-  text-shadow: none;
+  color: #eab3f7;
+  text-shadow: 0 0 0.5px rgba(251,104,59,0.58);
 }
 #nav.fixed a:hover,
 #nav.fixed #site-name:hover,
@@ -2946,7 +2946,7 @@ _:future,
 }
 @media screen and (min-width: 768px) {
   #page-header #site_title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   #page-header #site_subtitle {
     font-size: 1.2rem;
@@ -3147,8 +3147,8 @@ _:future,
   height: 280px;
   border-radius: 8px;
   background: rgba(255,255,255,0.69);
-  -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
-  box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+  -webkit-box-shadow: 0 4px 8px 6px rgba(50,152,253,0.188);
+  box-shadow: 0 4px 8px 6px rgba(50,152,253,0.188);
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -3204,8 +3204,11 @@ _:future,
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-title {
   margin-bottom: 0.3rem;
-  color: #212121;
-  font-size: 1.2rem;
+  color: #ff4d2d;
+  font-size: 1.4rem;
+  -webkit-box-shadow: 0.5px 7px 8px -5px #f4c887;
+  box-shadow: 0.5px 7px 8px -5px #f4c887;
+  text-shadow: 0.5px 0.5px 2px rgba(255,108,63,0.58);
   line-height: 1.4;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
